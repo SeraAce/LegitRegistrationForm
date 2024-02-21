@@ -1,0 +1,73 @@
+.container {
+    width: 400px;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box; 
+}
+
+button[type="submit"] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.slider-container {
+    width: 300px; /* Adjust width as needed */
+    margin: 50px auto; /* Centers the slider */
+  }
+  
+  .slider {
+    -webkit-appearance: none;  /* Customize for Chrome/Safari */
+    appearance: none;          /* Modern browsers */
+    width: 100%;              
+    height: 10px;  
+    background: #d3d3d3;       /* Gray track background */
+    outline: none;           
+  }
+  
+  .slider::-webkit-slider-thumb { 
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;           
+    height: 20px;          
+    border-radius: 50%;   /* Round thumb */ 
+    background: #04AA6D;   /* Green thumb */ 
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb { /* Customize for Firefox */ 
+    width: 20px;    
+    height: 20px;  
+    border-radius: 50%;   
+    background: #04AA6D; 
+    cursor: pointer;
+  }
+  

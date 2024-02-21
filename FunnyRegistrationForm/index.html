@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="keyboardStyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Registration Form</h2>
+      <div class="form-group">
+        <label for="inputField">Name:</label>
+        <input type="text" id="inputField" name="username" required readonly />
+        <div class="keyboardContainer"></div>
+        <div class="keyboard"></div>
+      </div>
+      <div class="form-group">
+        <label for="slider">Gender:</label>
+        <div id="slider">
+          <label for="male">Male:%</label>
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="80"
+            class="slider"
+            id="male"
+          />
+          <label for="female">Female:%</label>
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="30"
+            class="slider"
+            id="female"
+          />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="password">Age</label>
+        <input type="number" id="password" name="password" required />
+        <div id="error-container"></div>
+      </div>
+      <button type="submit" onclick="buttonsub()">Register</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

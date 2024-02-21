@@ -1,0 +1,20 @@
+.keyboardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.keyboard {
+    display: grid; 
+    grid-template-columns: repeat(10, 1fr); /* Adjust for number of keys per row */
+    gap: 5px;
+    margin-top: 10px; 
+}
+
+.key {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}

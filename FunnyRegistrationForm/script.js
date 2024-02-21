@@ -11,7 +11,7 @@ function buttonsub() {
   const inputField = document.getElementById('inputField');
 const keyboard = document.querySelector('.keyboard');
 
-// Sample keys (expand this for a full keyboard)
+// Keys
 const keys = [
     'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'k', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z','Backspace'
 ];
